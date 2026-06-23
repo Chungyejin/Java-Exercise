@@ -1,4 +1,4 @@
-#Java Class Assignment 2: BST vs. Hash Table Performance Analysis
+# Java Class Assignment 2: BST vs. Hash Table Performance Analysis
 
 ## 🎯 About the Project
 This project is an empirical performance study designed to compare how efficiently two different data structures handle large volumes of data. Specifically, it measures and analyzes the execution times of a **Binary Search Tree (BST)** and a **Hash Table (HT)** written in Java.
