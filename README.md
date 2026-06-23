@@ -1,14 +1,10 @@
-# javaclassassignment2
-Surprise! One extra java class assignment, this time dealing with hash tables.
-This is what was asked of our group, note that it its written in PTBR as we graduate in a brazillian university:
+#Java Class Assignment 2: BST vs. Hash Table Performance Analysis
 
-O objetivo deste TDE é comparar EMPIRICAMENTE a performance de duas estratégicas de busca. Vc deverá utilizar implementações anteriores de Árvore Binária de Busca e Tabela hash**.
+## 🎯 About the Project
+This project is an empirical performance study designed to compare how efficiently two different data structures handle large volumes of data. Specifically, it measures and analyzes the execution times of a **Binary Search Tree (BST)** and a **Hash Table (HT)** written in Java.
 
- 
-
-Escreva uma função que solicita do usuário o tamanho do conjunto de dados utilizado nos experimentos;
-Gere aleatoriamente um grande número de chaves (números inteiros grandes, ex: 847484859) e insira cada chave em uma Árvore Binária de Busca (ABB) e em uma Tabela Hash (TH);
-Calcule o tempo total em segundos gasto pelas estruturas (ABB e TH) para armazenar todas as chaves;
-Gere aleatoriamente um grande número de chaves e procure cada uma delas nas estruturas de Árvore Binária de Busca (ABB) e Tabela Hash (TH) geradas anteriormente;
-Calcule o tempo total em segundos gasto pelas estruturas (ABB e TH) para recuperar todas as chaves;
-Apresente para o usuário os tempos de indexação e recuperação de cada estrutura (TH) e (ABB) e a soma dos seus respectivos tempos.
+The program guides the user through an automated benchmark process:
+* **Dataset Initialization:** The user specifies the amount of data to test. The program then generates a massive set of random, large integer keys.
+* **Indexing Performance (Insertion):** It inserts all generated keys into both the BST and the Hash Table, measuring exactly how many seconds each structure takes to store the data.
+* **Retrieval Performance (Search):** It generates another set of random keys to search for within both completed structures, timing the total duration of the look-up operations.
+* **Comparative Summary:** Finally, it presents a clear breakdown of the insertion times, search times, and the total combined time for each structure, demonstrating their real-world efficiency gaps.
